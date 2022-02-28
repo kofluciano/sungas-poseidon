@@ -1,0 +1,428 @@
+body{
+	margin: 0px;
+}
+
+
+/*Para celular*/
+@media screen and (min-width: 320px){
+
+.grid-container{
+display: grid;
+background-color: orange;
+grid-template-areas: 
+	 "header header"
+	 "nav nav"
+	 "poseidon calipso"
+	 "fotter fotter"
+	 "fotter fotter";
+grid-template-rows: 150px 150px 160px 140px 150px;
+grid-template-columns: 160px 160px;
+flex:wrap;
+
+}
+
+/*ID*/
+#Itemheader{
+display: flex;
+background-color: #1E1E5B;	
+grid-area: header;
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 100px;
+
+}
+
+#Itemnav{
+display: flex;
+background-color: #1E1E5B;
+grid-area: nav;
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 100px;
+
+}
+
+#Itemposeidon{
+display: flex;
+background-color: #1E1E5B;
+grid-area: poseidon;
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 100px;
+
+}
+
+#Itemcalipso{
+display: flex;
+background-color: #1E1E5B;
+grid-area: calipso;
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 100px;
+
+}
+
+#Itemfotter{
+display: flex;
+grid-area: fotter;
+background-color:  #1E1E5B;
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 100px;
+
+}
+
+/*Clases*/
+.imglogo{
+	display: flex;
+	padding-top: 10px;
+	padding-left: 10px;
+	max-height:1400 ;
+	min-height:100 ;
+	max-width:1400 ;
+	min-width: 100;
+	padding-bottom: 10px;
+
+}
+.letrasheader{
+	display: flex;
+	font-size: 17px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 20px;
+	margin-left: 0PX;
+	margin-bottom: auto;
+	margin-top: 10px;
+	align-content: auto;
+}
+.poseidon-letrasheader{
+	display: flex;
+	font-size: 17px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 20px;
+	margin-left: 0PX;
+	margin-bottom: auto;
+	margin-top: 10px;
+	align-content: auto;
+}
+.redes{
+	padding-top: 10px;
+	padding-left: 10px;
+	width: 35px;
+	height: 35px;
+	padding-bottom: 10px;
+
+}
+
+.video{
+	display: flex;
+	width: 150px ;
+	height: 100px;
+	padding-left: 2px;
+}
+.letrasvideo{
+	display: flex;
+	font-size: 17px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 20px;
+	margin-left: 5PX;
+	margin-bottom: auto;
+	margin-top: 0px;
+}
+
+.letrasfotter{
+	display: flex;
+	font-size: 10px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 15px;
+	height: 11px;
+	align-content: left;
+
+
+}
+
+.copi{
+	height: 11px;
+	font-size: 10px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 15px;
+
+}
+
+.imgnav{
+	display: flex;
+	padding: auto;
+	height: 120px;
+	width: 285px;
+	margin: auto;
+}
+
+.poseidonimg{
+	display: flex;
+	height: 100px;
+	width: 100px;
+	border: 1px solid black;
+}
+}
+
+/*Para tablet*/
+
+@media screen and (min-width: 600px){
+.grid-container{
+display: grid;
+background-color: orange;
+grid-template-areas: 
+	 "header header"
+	 "nav nav"
+	 "poseidon calipso"
+	 "fotter fotter"
+	 "fotter fotter";
+grid-template-rows: 250px 250px 250px 250px 250px;
+grid-template-columns: 300px 300px;
+}
+/*ID*/
+#Itemheader{
+background-color: #00DDFF;
+grid-area: header;	
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 100px;
+
+}
+
+#Itemnav{
+background-color: #00DDFF;
+grid-area: nav;
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 100px;
+
+}
+
+#Itemposeidon{
+background-color: #00DDFF;
+grid-area: poseidon;
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 100px;
+
+}
+
+#Itemcalipso{
+background-color: #00DDFF;
+grid-area: calipso;
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 100px;
+
+}
+
+#Itemfotter{
+background-color:  #00DDFF;
+grid-area: fotter;
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 100px;
+
+}
+/*Clases*/
+.imglogo{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.letrasheader{
+	font-size: 30px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 20px;
+	margin-left: 20PX;
+	margin-top: 20px;
+	
+}
+
+.redes{
+	display: flex;
+	height: 100px;
+	width: 100px;
+
+}
+.margenul{
+	margin:1px;
+}
+
+.letrasfotter{
+	font-size: 18px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 15px;
+	height: 19px;
+
+}
+
+.copi{
+	margin-top: 10px;
+	font-size: 10px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 15px;
+
+	
+}
+
+.imgnav{
+	display: flex;
+	border: 1px solid black;
+	height: 240px;
+	width: 580px;
+	margin: auto;
+}
+
+.video{
+	display: flex;
+	width: 280px ;
+	height: 200px;
+	padding-left: 2px;
+	margin-left: 10px;
+
+}
+.poseidonimg{
+	display: flex;
+	height: 190px;
+	width: 190px;
+	border: 2px solid black;
+}
+
+}
+
+/*Para PC*/
+@media screen and (min-width: 1200px){
+.grid-container{
+display: grid;
+background-color: orange;
+grid-template-areas: 
+	 "nav header header"
+	 "nav poseidon poseidon"
+	 "nav calipso calipso"
+	 "nav fotter fotter"
+	 "nav fotter fotter";
+grid-template-rows: 330px 360px 360px 350px 350px ;
+grid-template-columns: 400px 400px 400px;
+flex-grow: 1;
+	flex-shrink: 1;
+}
+/*ID*/
+#Itemheader{
+background-color: #587FFC;
+grid-area: header;
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 100px;
+
+}
+
+#Itemnav{
+background-image: url("imagenes/fondos/tropical.webp");
+grid-area: nav;
+
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 100px;
+
+}
+
+#Itemposeidon{
+background-color: #587FFC;
+grid-area: poseidon;
+
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 100px;
+
+}
+
+#Itemcalipso{
+background-color: #587FFC;
+grid-area: calipso;
+
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 100px;
+
+}
+
+#Itemfotter{
+background-color:  #587FFC;
+grid-area: fotter;
+
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 100px;
+
+}
+/*Clases*/
+.imglogo{
+	padding-top: 10px;
+	padding-left: 10px;
+	
+}
+.letrasheader{
+	font-size: 50px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 20px;
+	margin-left: 20PX;
+
+}
+
+.redes{
+	height: 150px;
+	width: 150px;
+}
+
+.letrasfotter{
+	font-size: 40px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 15px;
+	height: 41px;
+	
+}
+
+.copi{
+	font-size: 10px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 15px;
+
+	
+}
+
+.imgnav{
+height: 0px;
+width: 0px;
+margin: auto;
+}
+.video{
+margin: auto;
+height: 300px;
+width: 700px;
+border: 2px solid black;
+}
+.poseidonimg{
+	display: flex;
+	height: 250px;
+	width: 250px;
+	border: 2px solid black;
+}
+}
+
+
+
+
+
+
+
