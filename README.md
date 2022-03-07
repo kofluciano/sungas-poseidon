@@ -1,2 +1,1 @@
-Desafio clase 10
-Rama Con animaciones, transiciones y transformaciones
+Segunda entrega de proyecto
